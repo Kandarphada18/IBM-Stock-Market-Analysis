@@ -34,10 +34,7 @@ The dashboard provides insights into:
 5. Visualize insights using Power BI dashboard
 
 ## Dashboard Preview
-(Add screenshot here)
+<img width="1633" height="730" alt="image" src="https://github.com/user-attachments/assets/59b2552a-8686-4e1a-af22-93de2fd30ecd" />
 
-## Future Improvements
-- Multi-stock comparison
-- Candlestick charts
-- Buy/Sell signal prediction
-- Streamlit deployment
+
+
