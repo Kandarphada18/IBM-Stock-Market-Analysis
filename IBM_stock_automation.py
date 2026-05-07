@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import os
 
-API_KEY = "CTM9YSKJEI3Y3TJQ"
+API_KEY = "YOUR_API_KEY"
 
 def get_stockprice_info(symbol):
     url = "https://www.alphavantage.co/query"
@@ -10,7 +10,7 @@ def get_stockprice_info(symbol):
     params = {
         "function": "TIME_SERIES_DAILY",
         "symbol": symbol,
-        "apikey": "CTM9YSKJEI3Y3TJQ"
+        "apikey": "YOUR_API_KEY"
     }
 
     response = requests.get(url, params=params)
